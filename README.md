@@ -24,7 +24,6 @@ Bienvenido a PetCare. Este manual te explica cómo usar la app para cuidar mejor
 13. [Seguimiento de Peso, Vacunas y Desparasitaciones](#13-seguimiento-de-peso-vacunas-y-desparasitaciones)
 14. [Actualizar Foto de Perfil de Mascota](#14-actualizar-foto-de-perfil-de-mascota)
 15. [Cambiar Idioma y Tema](#15-cambiar-idioma-y-tema)
-16. [Cerrar Sesión](#16-cerrar-sesión)
 
 ### Información Técnica para Desarrolladores
 17. [Arquitectura del Sistema](#17-arquitectura-del-sistema)
@@ -62,29 +61,21 @@ Solo un navegador moderno (Chrome, Firefox, Safari o Edge), internet y un correo
 
 Abre la app en tu navegador. Verás la página de inicio con el botón "Comenzar". Haz clic ahí para registrarte o iniciar sesión.
 
-**IMAGEN REQUERIDA 1: Pantalla de inicio**
-- Recuadro alrededor del botón "Comenzar" con flecha indicativa
-
+<img src="figures/1.png" alt="Pantalla de inicio" width="700">
 ---
 
 ## 3. Crear una Cuenta
 
 Haz clic en "Comenzar" o "Registrarse". Llena el formulario con tu nombre, correo y contraseña (mínimo 6 caracteres). El teléfono es opcional. Acepta los términos si aparece y listo. Si te piden verificar el correo, revisa tu bandeja de entrada.
 
-**IMAGEN REQUERIDA 2: Formulario de registro**
-- Recuadros numerados en cada campo obligatorio
-- Resaltado del botón "Registrarse"
-
+<img src="figures/2.png" alt="Formulario de registro" width="700">
 ---
 
 ## 4. Iniciar Sesión
 
 Pon tu correo y contraseña. Si quieres que te recuerde, marca "Recuérdame". Si olvidaste tu contraseña, usa el enlace de recuperación.
 
-**IMAGEN REQUERIDA 3: Formulario de login**
-- Recuadros en campos de correo y contraseña
-- Resaltado del botón "Iniciar Sesión"
-
+<img src="figures/3.png" alt="Formulario de inicio de sesión" width="700">
 ---
 
 ## 5. El Dashboard Principal
@@ -98,31 +89,21 @@ Esta es tu pantalla principal. Aquí verás:
 - Tus recordatorios próximos
 - Análisis recientes y documentos del veterinario
 
-**IMAGEN REQUERIDA 4: Vista completa del Dashboard**
-- Recuadros numerados identificando las secciones principales
-- Flechas apuntando a la barra superior y acciones rápidas
-
+<img src="figures/4.png" alt="Vista completa del Dashboard" width="700">
 ---
 
 ## 6. Agregar tu Primera Mascota
 
 Haz clic en "Agregar Mascota". Solo necesitas poner el nombre y la especie (Perro, Gato u Otro). Lo demás es opcional: raza, fecha de nacimiento o edad, peso actual y última vacuna. Si quieres, sube una foto (JPG, PNG o GIF). Guarda y listo.
 
-**IMAGEN REQUERIDA 5: Formulario de agregar mascota**
-- Recuadros en campos obligatorios (Nombre, Especie)
-- Área de carga de foto resaltada
-- Botón "Agregar Mascota" destacado
-
+<img src="figures/5.png" alt="Formulario de agregar mascota" width="700">
 ---
 
 ## 7. Editar Información de una Mascota
 
 En la tarjeta de tu mascota, haz clic en "Editar" (o el ícono de lápiz). Cambia lo que necesites y guarda. Si quieres eliminar una mascota, usa el botón correspondiente, pero cuidado: se borrarán todos sus datos.
 
-**IMAGEN REQUERIDA 6: Edición de mascota**
-- Botón "Editar" resaltado en la tarjeta
-- Formulario con datos prellenados
-
+<img src="figures/6.png" alt="Edición de información de mascota" width="700">
 ---
 
 ## 8. Analizar Salud con Inteligencia Artificial
@@ -131,55 +112,35 @@ Haz clic en "Analizar Salud de Mascota", elige tu mascota y si es perro o gato. 
 
 **Ojo**: Esto es solo informativo. Para un diagnóstico real, ve al veterinario.
 
-**IMAGEN REQUERIDA 7: Análisis de salud**
-- Selectores de mascota y tipo de animal
-- Área de carga de imagen
-- Resultados del análisis con secciones numeradas
-
+<img src="figures/7.png" alt="Análisis de salud con IA" width="700">
 ---
 
 ## 9. Crear Recordatorios
 
 Haz clic en "Crear Recordatorio". Ponle un título (como "Vacunación Anual"), la fecha y el tipo. Si quieres, agrega una hora, descripción o asócialo a una mascota. Guarda y aparecerá en tu calendario.
 
-**IMAGEN REQUERIDA 8: Formulario de recordatorio**
-- Campos obligatorios resaltados (Título, Fecha)
-- Calendario visible
-- Botón "Crear Recordatorio" destacado
-
+<img src="figures/8.png" alt="Formulario de crear recordatorio" width="700">
 ---
 
 ## 10. Ver el Calendario de Eventos
 
 Abre el calendario desde el Dashboard. Los días con recordatorios aparecen marcados. Haz clic en cualquier día para ver qué tienes programado. Abajo verás los próximos 7 días. Cuando completes algo, márcalo como hecho.
 
-**IMAGEN REQUERIDA 9: Vista del calendario**
-- Calendario mensual con días resaltados
-- Lista de recordatorios próximos
-- Día seleccionado con sus recordatorios
-
+<img src="figures/9.png" alt="Vista del calendario de eventos" width="700">
 ---
 
 ## 11. Subir Documentos Veterinarios
 
 Haz clic en "Subir Nota del Veterinario". Ponle un título, elige la mascota y sube el PDF (máximo 10MB). Si quieres, completa el nombre del veterinario, la fecha y una descripción. También puedes usar "Rellenar con IA" para que la app genere la descripción automáticamente. Guarda y listo.
 
-**IMAGEN REQUERIDA 10: Formulario de subir documento**
-- Campos obligatorios resaltados
-- Área de carga de PDF
-- Botón "Rellenar con IA" destacado
-
+<img src="figures/10.png" alt="Formulario de subir documento veterinario" width="700">
 ---
 
 ## 12. Usar el Asistente Virtual
 
 Abre el asistente desde el Dashboard. Si quieres, elige una mascota para que las respuestas sean más personalizadas. Escribe tu pregunta (por ejemplo, "¿Cuántas veces debo alimentar a mi perro?") y envía. El asistente recuerda la conversación, así que puedes hacer preguntas de seguimiento. Si hay preguntas rápidas disponibles, úsalas. También puedes analizar documentos desde "Notas Veterinarias Recientes".
 
-**IMAGEN REQUERIDA 11: Interfaz del asistente**
-- Selector de mascota
-- Área de chat con mensajes
-- Campo de texto y botón enviar
-
+<img src="figures/11.png" alt="Interfaz del asistente virtual" width="700">
 ---
 
 ## 13. Seguimiento de Peso, Vacunas y Desparasitaciones
@@ -191,42 +152,21 @@ Abre "Seguimiento" y elige una mascota. Tienes 4 pestañas:
 - **Desparasitaciones**: Lo mismo que vacunas
 - **Línea de Tiempo**: Todo junto en orden cronológico
 
-**IMAGEN REQUERIDA 12: Página de seguimiento**
-- Selector de mascota
-- Las 4 pestañas visibles
-- Formulario de registro y gráfico en la pestaña de Peso
-
+<img src="figures/12.png" alt="Página de seguimiento de peso, vacunas y desparasitaciones" width="700">
 ---
 
 ## 14. Actualizar Foto de Perfil de Mascota
 
 Haz clic en "Actualizar Foto de Mascota", elige la mascota y sube una nueva foto (JPG, PNG o GIF, máximo 10MB). Puedes arrastrarla o seleccionarla. Guarda cuando esté lista.
 
-**IMAGEN REQUERIDA 13: Actualizar foto**
-- Selector de mascota
-- Área de carga con foto actual visible
-- Botón "Actualizar Foto de Perfil"
-
+<img src="figures/13.png" alt="Actualizar foto de perfil de mascota" width="700">
 ---
 
 ## 15. Cambiar Idioma y Tema
 
 Arriba a la derecha verás los selectores. El de idioma cambia entre español e inglés. El de tema (sol/luna) alterna entre claro y oscuro. Los cambios son instantáneos.
 
-**IMAGEN REQUERIDA 14: Selectores de idioma y tema**
-- Selector de idioma en la barra superior
-- Selector de tema visible
-
----
-
-## 16. Cerrar Sesión
-
-Haz clic en tu perfil arriba a la derecha y selecciona "Cerrar Sesión". Volverás a la página de inicio.
-
-**IMAGEN REQUERIDA 15: Cerrar sesión**
-- Botón de perfil en la barra superior
-- Menú desplegable con opción "Cerrar Sesión" resaltada
-
+<img src="figures/14.png" alt="Selectores de idioma y tema" width="700">
 ---
 
 
